@@ -33,6 +33,18 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+gem 'bootstrap-sass', '~> 3.2.0'
+gem "jquery-rails"
+gem 'jquery-ui-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

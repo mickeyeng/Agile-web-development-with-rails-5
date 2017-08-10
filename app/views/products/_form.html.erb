@@ -11,22 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :title %>
     <%= form.text_field :title, id: :product_title %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :description %>
     <%= form.text_area :description, rows: 10, cols: 10 %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :image_url %>
     <%= form.text_field :image_url, id: :product_image_url %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :price %>
     <%= form.text_field :price, id: :product_price %>
   </div>
