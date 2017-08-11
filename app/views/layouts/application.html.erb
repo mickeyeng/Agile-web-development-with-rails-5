@@ -9,7 +9,9 @@
   </head>
 
   <body class="<%= controller.controller_name %>">
-  
+  <%= render 'nav'  %>
+  <br>
+  <h2><%= @page_title  %></h2>
     <%= yield %>
   
   </body>
